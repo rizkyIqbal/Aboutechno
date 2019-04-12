@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroll1">
+    <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".hardwarenews"
+            android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/crd1">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg3"
+                    android:id="@+id/rltv1">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PC RAKITAN INTEL 6JT"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:textSize="20dp"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rakit pc gaming 5 juta an intel menggunakan komponen terbaru di tahun 2019 apakah memungkinkan? Kali ini  kita akan mencoba merakit sebuah PC gaming menggunakan processor generasi ke-8 yaitu Intel Core i3-8100."
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Budget 5 juta sangatlah menyulitkan kami dalam memilih komponen yang hendak digunakan, hal ini disebabkan karena harga processor dan motherboard untuk Intel generasi ke-8 saat ini terbilang tinggi"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Processor Intel Core i3-8100"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"/>
+
+        <ImageView
+                android:layout_width="250dp"
+                android:layout_height="162dp"
+                android:src="@drawable/i3"
+                android:layout_marginLeft="15dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Processor Intel generasi ke-8 (Coffee-Lake) ini adalah processor entry level yang hadir dengan 4 (quad) core didalamnya. Tanpa dilengkapi dengan fitur hyper threading.
+
+Kecepatan processor ini adalah  3.6GHz dan tidak bisa di overclock. Mendukung kapasitas memory hingga 64GB. Hadir dengan konsumsi daya 65 watt."
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Motherboard Gigabyte B360M-D2V"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"/>
+
+        <ImageView
+                android:layout_width="250dp"
+                android:layout_height="162dp"
+                android:src="@drawable/b360m"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gigabyte B360M-D2V adalah motherboard yang sudah mendukung processor Intel generasi ke-8 namun harganya terjangkau (Rp. 1.149.999). Dengan chipset B360 yang pas-pasan, motherboard ini masih sedikit lebih baik jika dibandingkan dengan chipset H310."
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Memory Apacer DDR4 8GB (2x4GB) 2400MHZ PC19200"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"/>
+
+        <ImageView
+                android:layout_width="250dp"
+                android:layout_height="162dp"
+                android:src="@drawable/ram4"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Untuk memory kami menggunakan Apacer DDR4 8GB (2x4GB) dengan kecepatan 2400MHZ / PC19200. "
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Memory ini harganya Rp. 945.000, dijual dalam satu set 2x4GB dual channel. Meskipun harganya murah, memory ini sudah dilengkapi dengan heatsink."
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. VGA Colorful GT 1030 2GB DDR5"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"/>
+
+        <ImageView
+                android:layout_width="250dp"
+                android:layout_height="162dp"
+                android:src="@drawable/gt1030"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Colorful GT 1030 2GB DDR5 mau tidak mau menjadi pilihan pada PC rakitan kali ini. Colorful adalah salah satu merek VGA yang murah di Indonesia."
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GT 1030 adalah vga card paling murah dari generasi GTX10 (1 generasi sebelum RTX20 Series). Performanya jauh dibawah GTX 1050ti, namun cukup untuk game-game ringan."
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. SSD WD Green 120GB SATA3"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"/>
+
+        <ImageView
+                android:layout_width="250dp"
+                android:layout_height="162dp"
+                android:src="@drawable/ssd"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Untuk sarana penyimpanan sistem operasi, kami menyarankan agar kamu menggunakan SSD agar kecepatan sistem operasi ketika bekerja jauh lebih cepat."
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. Casing Dazumba DE-150"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"/>
+
+        <ImageView
+                android:layout_width="250dp"
+                android:layout_height="162dp"
+                android:src="@drawable/casing1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Karena budget yang terbatas, casing Dazumba DE-150 menjadi pilihan. Dengan harga yang sangat murah, casing ini sudah dilengkapi dengan power supply"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

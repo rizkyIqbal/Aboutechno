@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroll1">
+<RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".hardwarenews"
+        android:background="@drawable/bg4">
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:id="@+id/crd1">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg3"
+                android:id="@+id/rltv1">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HTML UNTUK PEMULA"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="20dp"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/crd1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="25dp" >
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cara Membuat Halaman Web Sederhana dengan Notepad"
+                    android:paddingTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textSize="20dp"/>
+        </RelativeLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFF"
+                android:orientation="vertical"
+                android:layout_marginTop="80dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="note : tanda ( [ ) dan ( ] ) diganti dengan kurung sudut"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textSize="13dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Bukalah Notepad. Penyunting teks ini merupakan program bawaan yang tersedia di setiap komputer Windows, dan dapat ditemukan di menu Start. Setelah Notepad terbuka, klik File > Save As, lalu pilih All Files pada kolom File Type. Simpan berkas buatan Anda dalam format HTML. Umumnya, halaman utama sebuah situs memiliki nama berkas index.html, dan berisi tautan ke seluruh halaman pada situs."
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="219dp"
+                    android:src="@drawable/tutorialhtml01"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Pahami HTML. Tanda (tag) pada HTML (Hypertext Markup Language) berada dalam [kurung sudut].Tanda tersebut berfungsi untuk membangun situs web Anda. Untuk mengakhiri kode HTML, gunakan tanda penutup (end tag), seperti [/text]. Tanda penutup tersebut berguna untuk menutup berbagai tanda, seperti tanda huruf tebal atau paragraf."
+                    android:paddingTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="211dp"
+                    android:src="@drawable/tutorialhtml02"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Awali halaman web Anda dengan memasukkan tanda [html] di bagian atas berkas."
+                    android:paddingTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="211dp"
+                    android:src="@drawable/tutorialhtml03"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Gunakan tanda [head] untuk memasukkan berbagai informasi. Tanda [title] berguna untuk mengatur judul halaman, sementara tanda [meta] (opsional) berfungsi untuk memasukkan penjelasan mengenai isi halaman web. Tanda [meta] tersebut kemudian akan dibaca oleh mesin pencari, seperti Google."
+                    android:paddingTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="211dp"
+                    android:src="@drawable/tutorialhtml04"/>
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5. Setelah memasukkan tanda [head], beri judul halaman dengan tanda [title], misalnya [title]wikiHow HTML[/title]"
+                    android:paddingTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="211dp"
+                    android:src="@drawable/tutorialhtml05"/>
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6. Akhiri kepala situs dengan menggunakan tanda [/head]"
+                    android:paddingTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="211dp"
+                    android:src="@drawable/tutorialhtml06"/>
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7. Gunakan tanda [body] untuk memasukkan isi halaman. Ingatlah bahwa tidak semua warna didukung oleh peramban. Misalnya, warna abu-abu gelap mungkin tidak didukung."
+                    android:paddingTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="211dp"
+                    android:src="@drawable/tutorialhtml06"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NEXT PAGE"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="200dp"
+                    android:paddingBottom="10dp"
+                    android:id="@+id/nxtbtn"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
+</ScrollView>

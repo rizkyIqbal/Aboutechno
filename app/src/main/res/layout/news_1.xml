@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroll1">
+<RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".hardwarenews"
+        android:background="@drawable/bg4">
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:id="@+id/crd1">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg3"
+                android:id="@+id/rltv1">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COMPUTEX 2019 NEWS"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="20dp"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/crd1"
+            android:layout_marginLeft="25dp">
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AMD President and CEO Dr. Lisa Su to Deliver COMPUTEX 2019 CEO Keynote on New High-Performance Computing Technologies"
+                    android:paddingTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textSize="20dp"/>
+        </RelativeLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFF"
+                android:orientation="vertical"
+                android:layout_marginTop="90dp">
+
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dewan Pengembangan Perdagangan Eksternal Taiwan (TAITRA) hari ini mengumumkan bahwa Konferensi Pers Internasional COMPUTEX 2019 akan diadakan dengan Keynote oleh Presiden dan CEO AMD Dr. Lisa Su. Keynote Konferensi Pers Internasional dan CEO COMPUTEX 2019 dijadwalkan untuk Senin, 27 Mei pukul 10:00 pagi di Ruang 201 Pusat Konvensi Internasional Taipei (TICC) di Taipei, Taiwan dengan topik utama “Generasi Selanjutnya dari Komputasi Kinerja Tinggi ”"
+                    android:paddingTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COMPUTEX, sebagai salah satu pameran teknologi terkemuka dunia, terus maju dengan waktu selama lebih dari 30 tahun. Tahun ini, untuk pertama kalinya, pidato utama akan diadakan pada konferensi pers internasional pra-pertunjukan kata Walter Yeh, Presiden dan CEO, TAITRA, Dr. Lisa Su menerima undangan khusus untuk berbagi wawasan tentang generasi berikutnya dari komputasi kinerja tinggi. Kami menantikan partisipasinya menarik lebih banyak perusahaan untuk berpartisipasi dalam COMPUTEX, membawa yang terbaru wawasan industri, dan bersama-sama berbagi kemungkinan tak terbatas dari ekosistem teknologi di panggung global ini."
+                    android:paddingTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sebagai pembicara utama CEO pertama pada Konferensi Pers COMPUTEX, Dr. Lisa Su berkata, “Sebagai salah satu acara global paling penting untuk industri kita, saya menantikan COMPUTEX setiap tahun. Saya merasa terhormat untuk menyampaikan keynote pembukaan tahun ini dan memberikan detail baru tentang generasi berikutnya dari platform dan produk AMD berkinerja tinggi. Dengan mitra kami, kami akan menceritakan kisah tentang bagaimana teknologi terdepan dan ekosistem terbuka mendorong titik belok dalam komputasi dan inovasi industri dan berdampak positif pada beberapa pasar penting."
+                    android:paddingTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Di bawah kepemimpinan Dr. Lisa Su, AMD terus tumbuh dan unggul di bidang komputasi kinerja tinggi, grafik, dan teknologi visualisasi. Produk AMD terbaru yang dirilis termasuk GPU gaming 7nm pertama di dunia – AMD Radeon ™ VII dan GPU datacenter 7nm pertama, AMD Radeon Instinct MI60. Produk yang akan datang termasuk prosesor datacenter AMD EPYC ™ 7nm, prosesor desktop AMD Ryzen ™ Generasi ke-3 dan kartu grafis berdasarkan arsitektur Navi generasi berikutnya - yang semuanya dirancang untuk menciptakan pengalaman luar biasa bagi para gamer dan pencipta serta membantu memecahkan banyak masalah. salah satu tantangan terberat dalam hidup kita. Selama CEO Keynote, Dr. Lisa Su dan tamu terkemuka lainnya akan menyoroti detail baru dari produk yang akan datang dan menunjukkan bagaimana industri membangun ekosistem komputasi kinerja tinggi baru yang akan mendorong teknologi ke tingkat berikutnya."
+                    android:paddingTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COMPUTEX 2019 melanjutkan posisinya Membangun Ekosistem Teknologi Global dari 28 Mei - 1 Juni 2019 yang menampung 1.685 peserta pameran di 5.508 stan pameran, dengan fokus pada tren teknologi terbaru seperti AI dan IoT, 5G, Blockchain, Innovation dan Startups, dan Gaming dan       XR . Acara 2019 bertujuan untuk menginspirasi lebih banyak teknologi inovatif dan peluang pasar untuk menciptakan ekosistem TIK baru."
+                    android:paddingTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
+</ScrollView>

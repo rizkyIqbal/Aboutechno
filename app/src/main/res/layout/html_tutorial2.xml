@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroll1">
+<RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".hardwarenews"
+        android:background="@drawable/bg4">
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:id="@+id/crd1">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg3"
+                android:id="@+id/rltv1">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HTML UNTUK PEMULA"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="20dp"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/crd1"
+            android:layout_marginLeft="25dp">
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cara Membuat Halaman Web Sederhana dengan Notepad Page 2"
+                    android:paddingTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textSize="20dp"/>
+        </RelativeLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFF"
+                android:orientation="vertical"
+                android:layout_marginTop="100dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="note : tanda ( [ ) dan ( ] ) diganti dengan kurung sudut"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textSize="13dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8. Tuliskan isi halaman web di antara tanda [body]. Misalnya, mulailah dengan membuat kepala situs. Kepala situs adalah bagian situs dengan huruf berukuran besar, dan dibuat dengan tanda [h1] hingga [h6]. Tanda [h1] dapat Anda gunakan untuk membuat kepala situs dengan ukuran huruf terbesar. Cobalah menggunakan tanda tersebut tepat di bawah tanda [body], seperti [h1]Selamat datang di situs saya![/h1]. Pastikan Anda menutup tanda [h1] di akhir kalimat."
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="219dp"
+                    android:src="@drawable/tutorialhtml08"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9. Buatlah paragraf di halaman dengan tanda [p]. Misalnya, tulislah [p]Tes paragraf![/p] Untuk membuat baris baru, gunakan tanda [br], atau break."
+                    android:paddingTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="211dp"
+                    android:src="@drawable/tutorialhtml09"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10. Anda tentu tidak ingin halaman web yang Anda buat hanya berisi teks polos. Gunakan berbagai tanda berikut ini untuk memformat teks pada halaman web: [b] untuk menebalkan teks, [i] untuk memiringkan teks, dan [u] untuk menggarisbawahinya. Setelah menggunakan tanda di atas, jangan lupa untuk menutupnya!"
+                    android:paddingTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="211dp"
+                    android:src="@drawable/tutorialhtml10"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11. Tambahkan gambar dengan tanda [img] untuk memperindah situs dan menambahkan informasi yang tidak dapat dijelaskan dalam bentuk teks. Tanda [img] memerlukan informasi tertentu agar berfungsi. Sintaksis lengkap tanda [img] mungkin berbentuk seperti ini: [img alt=dog src=dog.jpg width=200 height=200]. Parameter src pada tanda berfungsi untuk menulis nama berkas gambar, dan width serta height berfungsi untuk menjelaskan panjang dan lebarnya."
+                    android:paddingTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="211dp"
+                    android:src="@drawable/tutorialhtml11"/>
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12. Buatlah tautan yang mengarah ke halaman lain dengan tanda [a], misalnya [a href=otherpage.html]Halaman lain[/a]. Teks di tengah tanda adalah teks yang akan muncul di halaman, sementara parameter href berisi halaman tujuan. Dengan tautan, pengunjung dapat berpindah ke berbagai halaman di situs Anda dengan mudah. "
+                    android:paddingTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="211dp"
+                    android:src="@drawable/tutorialhtml12"/>
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="13. Setelah selesai mengisi situs, akhiri halaman dengan menutup tanda [/body]. Terakhir, tutup kode HTML dengan [/html]"
+                    android:paddingTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="211dp"
+                    android:src="@drawable/tutorialhtml13"/>
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="14. Simpan halaman web buatan Anda dengan ekstensi .html, dan bukalah di peramban favorit Anda untuk mengujinya."
+                    android:paddingTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="211dp"
+                    android:src="@drawable/tutorialhtml14"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BACK"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="200dp"
+                    android:paddingBottom="10dp"
+                    android:id="@+id/bckbtn"/>
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
+</ScrollView>
